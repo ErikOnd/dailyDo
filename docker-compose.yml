@@ -1,0 +1,10 @@
+version: "2.19.0"
+
+services:
+  frontend:
+    build: ./dailyDo
+    container_name: dailyDo_c
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
